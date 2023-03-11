@@ -5,7 +5,6 @@ import { Roboto } from "next/font/google";
 import SearchBar from "./SearchBar";
 import getMovies from "./getMovies";
 import MovieCard from "./MovieCard";
-// import { Provider } from "react-redux";
 
 const font = Roboto({
   weight: "400",
@@ -13,7 +12,7 @@ const font = Roboto({
 });
 
 const Home = async () => {
-  const movies = await getMovies();
+  // const movies = await getMovies();
 
   return (
     <>
